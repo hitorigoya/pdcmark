@@ -1,0 +1,16 @@
+{
+  "name": "pdcmark",
+  "version": "0.1.0",
+  "files": [
+    "pdcmark_bg.wasm",
+    "pdcmark.js",
+    "pdcmark_bg.js",
+    "pdcmark.d.ts"
+  ],
+  "module": "pdcmark.js",
+  "types": "pdcmark.d.ts",
+  "sideEffects": [
+    "./pdcmark.js",
+    "./snippets/*"
+  ]
+}
